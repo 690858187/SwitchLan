@@ -1,0 +1,653 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14F278B220C4DE9D00C2A353 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F278B120C4DE9D00C2A353 /* AppDelegate.m */; };
+		14F278B520C4DE9D00C2A353 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F278B420C4DE9D00C2A353 /* ViewController.m */; };
+		14F278B820C4DE9D00C2A353 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14F278B620C4DE9D00C2A353 /* Main.storyboard */; };
+		14F278BA20C4DEA000C2A353 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14F278B920C4DEA000C2A353 /* Assets.xcassets */; };
+		14F278BD20C4DEA000C2A353 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14F278BB20C4DEA000C2A353 /* LaunchScreen.storyboard */; };
+		14F278C020C4DEA000C2A353 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F278BF20C4DEA000C2A353 /* main.m */; };
+		14F278CA20C4DEA000C2A353 /* SwitchLanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F278C920C4DEA000C2A353 /* SwitchLanTests.m */; };
+		14F278D520C4DEA100C2A353 /* SwitchLanUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F278D420C4DEA100C2A353 /* SwitchLanUITests.m */; };
+		14F278E420C4DEBF00C2A353 /* SwitchLan.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F278E320C4DEBF00C2A353 /* SwitchLan.m */; };
+		14F278EB20C4E06A00C2A353 /* NSBundle+SwitchLan.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F278EA20C4E06A00C2A353 /* NSBundle+SwitchLan.m */; };
+		14F2790120C51B0600C2A353 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 14F278CB20C4DEA000C2A353 /* Info.plist */; };
+		14F2790220C51B0A00C2A353 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 14F278D620C4DEA100C2A353 /* Info.plist */; };
+		14F2791120C5204B00C2A353 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 14F2791320C5204B00C2A353 /* InfoPlist.strings */; };
+		14F2791D20C520B300C2A353 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 14F2791C20C520B300C2A353 /* Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		14F278C620C4DEA000C2A353 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14F278A520C4DE9D00C2A353 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14F278AC20C4DE9D00C2A353;
+			remoteInfo = SwitchLan;
+		};
+		14F278D120C4DEA100C2A353 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14F278A520C4DE9D00C2A353 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14F278AC20C4DE9D00C2A353;
+			remoteInfo = SwitchLan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14F278AD20C4DE9D00C2A353 /* SwitchLan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwitchLan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14F278B020C4DE9D00C2A353 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		14F278B120C4DE9D00C2A353 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		14F278B320C4DE9D00C2A353 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		14F278B420C4DE9D00C2A353 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		14F278B720C4DE9D00C2A353 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		14F278B920C4DEA000C2A353 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		14F278BC20C4DEA000C2A353 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		14F278BF20C4DEA000C2A353 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		14F278C520C4DEA000C2A353 /* SwitchLanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwitchLanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		14F278C920C4DEA000C2A353 /* SwitchLanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwitchLanTests.m; sourceTree = "<group>"; };
+		14F278CB20C4DEA000C2A353 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14F278D020C4DEA100C2A353 /* SwitchLanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwitchLanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		14F278D420C4DEA100C2A353 /* SwitchLanUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwitchLanUITests.m; sourceTree = "<group>"; };
+		14F278D620C4DEA100C2A353 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14F278E220C4DEBF00C2A353 /* SwitchLan.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwitchLan.h; sourceTree = "<group>"; };
+		14F278E320C4DEBF00C2A353 /* SwitchLan.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwitchLan.m; sourceTree = "<group>"; };
+		14F278E720C4DF7D00C2A353 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		14F278E820C4DF7D00C2A353 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		14F278E920C4E06A00C2A353 /* NSBundle+SwitchLan.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSBundle+SwitchLan.h"; sourceTree = "<group>"; };
+		14F278EA20C4E06A00C2A353 /* NSBundle+SwitchLan.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+SwitchLan.m"; sourceTree = "<group>"; };
+		14F278ED20C5095000C2A353 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		14F278EE20C50B2F00C2A353 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		14F278EF20C50B2F00C2A353 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		14F278F220C50CBD00C2A353 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Main.strings; sourceTree = "<group>"; };
+		14F278F320C50CBD00C2A353 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		14F278F420C50CE000C2A353 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
+		14F278F520C50CE000C2A353 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		14F278F620C50E5B00C2A353 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Main.strings"; sourceTree = "<group>"; };
+		14F278F720C50E5C00C2A353 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		14F2791220C5204B00C2A353 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		14F2791420C5205300C2A353 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		14F2791520C5205400C2A353 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		14F2791620C5205600C2A353 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		14F2791720C5205700C2A353 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		14F2791820C5205700C2A353 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		14F2791920C5205800C2A353 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		14F2791C20C520B300C2A353 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14F278AA20C4DE9D00C2A353 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14F278C220C4DEA000C2A353 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14F278CD20C4DEA100C2A353 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14F278A420C4DE9D00C2A353 = {
+			isa = PBXGroup;
+			children = (
+				14F278AF20C4DE9D00C2A353 /* SwitchLan */,
+				14F278C820C4DEA000C2A353 /* SwitchLanTests */,
+				14F278D320C4DEA100C2A353 /* SwitchLanUITests */,
+				14F278AE20C4DE9D00C2A353 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14F278AE20C4DE9D00C2A353 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14F278AD20C4DE9D00C2A353 /* SwitchLan.app */,
+				14F278C520C4DEA000C2A353 /* SwitchLanTests.xctest */,
+				14F278D020C4DEA100C2A353 /* SwitchLanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14F278AF20C4DE9D00C2A353 /* SwitchLan */ = {
+			isa = PBXGroup;
+			children = (
+				14F278B020C4DE9D00C2A353 /* AppDelegate.h */,
+				14F278B120C4DE9D00C2A353 /* AppDelegate.m */,
+				14F278B320C4DE9D00C2A353 /* ViewController.h */,
+				14F278B420C4DE9D00C2A353 /* ViewController.m */,
+				14F278E220C4DEBF00C2A353 /* SwitchLan.h */,
+				14F278E320C4DEBF00C2A353 /* SwitchLan.m */,
+				14F278E920C4E06A00C2A353 /* NSBundle+SwitchLan.h */,
+				14F278EA20C4E06A00C2A353 /* NSBundle+SwitchLan.m */,
+				14F278B620C4DE9D00C2A353 /* Main.storyboard */,
+				14F278B920C4DEA000C2A353 /* Assets.xcassets */,
+				14F278BB20C4DEA000C2A353 /* LaunchScreen.storyboard */,
+				14F278BF20C4DEA000C2A353 /* main.m */,
+				14F2791C20C520B300C2A353 /* Info.plist */,
+				14F2791320C5204B00C2A353 /* InfoPlist.strings */,
+			);
+			path = SwitchLan;
+			sourceTree = "<group>";
+		};
+		14F278C820C4DEA000C2A353 /* SwitchLanTests */ = {
+			isa = PBXGroup;
+			children = (
+				14F278C920C4DEA000C2A353 /* SwitchLanTests.m */,
+				14F278CB20C4DEA000C2A353 /* Info.plist */,
+			);
+			path = SwitchLanTests;
+			sourceTree = "<group>";
+		};
+		14F278D320C4DEA100C2A353 /* SwitchLanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				14F278D420C4DEA100C2A353 /* SwitchLanUITests.m */,
+				14F278D620C4DEA100C2A353 /* Info.plist */,
+			);
+			path = SwitchLanUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14F278AC20C4DE9D00C2A353 /* SwitchLan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14F278D920C4DEA100C2A353 /* Build configuration list for PBXNativeTarget "SwitchLan" */;
+			buildPhases = (
+				14F278A920C4DE9D00C2A353 /* Sources */,
+				14F278AA20C4DE9D00C2A353 /* Frameworks */,
+				14F278AB20C4DE9D00C2A353 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwitchLan;
+			productName = SwitchLan;
+			productReference = 14F278AD20C4DE9D00C2A353 /* SwitchLan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		14F278C420C4DEA000C2A353 /* SwitchLanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14F278DC20C4DEA100C2A353 /* Build configuration list for PBXNativeTarget "SwitchLanTests" */;
+			buildPhases = (
+				14F278C120C4DEA000C2A353 /* Sources */,
+				14F278C220C4DEA000C2A353 /* Frameworks */,
+				14F278C320C4DEA000C2A353 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14F278C720C4DEA000C2A353 /* PBXTargetDependency */,
+			);
+			name = SwitchLanTests;
+			productName = SwitchLanTests;
+			productReference = 14F278C520C4DEA000C2A353 /* SwitchLanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		14F278CF20C4DEA100C2A353 /* SwitchLanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14F278DF20C4DEA100C2A353 /* Build configuration list for PBXNativeTarget "SwitchLanUITests" */;
+			buildPhases = (
+				14F278CC20C4DEA100C2A353 /* Sources */,
+				14F278CD20C4DEA100C2A353 /* Frameworks */,
+				14F278CE20C4DEA100C2A353 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14F278D220C4DEA100C2A353 /* PBXTargetDependency */,
+			);
+			name = SwitchLanUITests;
+			productName = SwitchLanUITests;
+			productReference = 14F278D020C4DEA100C2A353 /* SwitchLanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14F278A520C4DE9D00C2A353 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = lyh;
+				TargetAttributes = {
+					14F278AC20C4DE9D00C2A353 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					14F278C420C4DEA000C2A353 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 14F278AC20C4DE9D00C2A353;
+					};
+					14F278CF20C4DEA100C2A353 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 14F278AC20C4DE9D00C2A353;
+					};
+				};
+			};
+			buildConfigurationList = 14F278A820C4DE9D00C2A353 /* Build configuration list for PBXProject "SwitchLan" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+				ja,
+				ko,
+				ru,
+				"zh-Hant",
+			);
+			mainGroup = 14F278A420C4DE9D00C2A353;
+			productRefGroup = 14F278AE20C4DE9D00C2A353 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14F278AC20C4DE9D00C2A353 /* SwitchLan */,
+				14F278C420C4DEA000C2A353 /* SwitchLanTests */,
+				14F278CF20C4DEA100C2A353 /* SwitchLanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14F278AB20C4DE9D00C2A353 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14F278BD20C4DEA000C2A353 /* LaunchScreen.storyboard in Resources */,
+				14F278BA20C4DEA000C2A353 /* Assets.xcassets in Resources */,
+				14F278B820C4DE9D00C2A353 /* Main.storyboard in Resources */,
+				14F2791D20C520B300C2A353 /* Info.plist in Resources */,
+				14F2791120C5204B00C2A353 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14F278C320C4DEA000C2A353 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14F2790120C51B0600C2A353 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14F278CE20C4DEA100C2A353 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14F2790220C51B0A00C2A353 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14F278A920C4DE9D00C2A353 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14F278EB20C4E06A00C2A353 /* NSBundle+SwitchLan.m in Sources */,
+				14F278B520C4DE9D00C2A353 /* ViewController.m in Sources */,
+				14F278C020C4DEA000C2A353 /* main.m in Sources */,
+				14F278B220C4DE9D00C2A353 /* AppDelegate.m in Sources */,
+				14F278E420C4DEBF00C2A353 /* SwitchLan.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14F278C120C4DEA000C2A353 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14F278CA20C4DEA000C2A353 /* SwitchLanTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14F278CC20C4DEA100C2A353 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14F278D520C4DEA100C2A353 /* SwitchLanUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14F278C720C4DEA000C2A353 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14F278AC20C4DE9D00C2A353 /* SwitchLan */;
+			targetProxy = 14F278C620C4DEA000C2A353 /* PBXContainerItemProxy */;
+		};
+		14F278D220C4DEA100C2A353 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14F278AC20C4DE9D00C2A353 /* SwitchLan */;
+			targetProxy = 14F278D120C4DEA100C2A353 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		14F278B620C4DE9D00C2A353 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14F278B720C4DE9D00C2A353 /* Base */,
+				14F278E720C4DF7D00C2A353 /* zh-Hans */,
+				14F278ED20C5095000C2A353 /* en */,
+				14F278EE20C50B2F00C2A353 /* ja */,
+				14F278F220C50CBD00C2A353 /* ko */,
+				14F278F420C50CE000C2A353 /* ru */,
+				14F278F620C50E5B00C2A353 /* zh-Hant */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		14F278BB20C4DEA000C2A353 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14F278BC20C4DEA000C2A353 /* Base */,
+				14F278E820C4DF7D00C2A353 /* zh-Hans */,
+				14F278EF20C50B2F00C2A353 /* ja */,
+				14F278F320C50CBD00C2A353 /* ko */,
+				14F278F520C50CE000C2A353 /* ru */,
+				14F278F720C50E5C00C2A353 /* zh-Hant */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		14F2791320C5204B00C2A353 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14F2791220C5204B00C2A353 /* en */,
+				14F2791420C5205300C2A353 /* Base */,
+				14F2791520C5205400C2A353 /* zh-Hans */,
+				14F2791620C5205600C2A353 /* ja */,
+				14F2791720C5205700C2A353 /* ru */,
+				14F2791820C5205700C2A353 /* ko */,
+				14F2791920C5205800C2A353 /* zh-Hant */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14F278D720C4DEA100C2A353 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		14F278D820C4DEA100C2A353 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14F278DA20C4DEA100C2A353 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3G3RRM9D84;
+				INFOPLIST_FILE = SwitchLan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chunhui.SwitchLan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		14F278DB20C4DEA100C2A353 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3G3RRM9D84;
+				INFOPLIST_FILE = SwitchLan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chunhui.SwitchLan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		14F278DD20C4DEA100C2A353 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3G3RRM9D84;
+				INFOPLIST_FILE = SwitchLanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chunhui.SwitchLanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwitchLan.app/SwitchLan";
+			};
+			name = Debug;
+		};
+		14F278DE20C4DEA100C2A353 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3G3RRM9D84;
+				INFOPLIST_FILE = SwitchLanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chunhui.SwitchLanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwitchLan.app/SwitchLan";
+			};
+			name = Release;
+		};
+		14F278E020C4DEA100C2A353 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3G3RRM9D84;
+				INFOPLIST_FILE = SwitchLanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chunhui.SwitchLanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwitchLan;
+			};
+			name = Debug;
+		};
+		14F278E120C4DEA100C2A353 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3G3RRM9D84;
+				INFOPLIST_FILE = SwitchLanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chunhui.SwitchLanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwitchLan;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14F278A820C4DE9D00C2A353 /* Build configuration list for PBXProject "SwitchLan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14F278D720C4DEA100C2A353 /* Debug */,
+				14F278D820C4DEA100C2A353 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14F278D920C4DEA100C2A353 /* Build configuration list for PBXNativeTarget "SwitchLan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14F278DA20C4DEA100C2A353 /* Debug */,
+				14F278DB20C4DEA100C2A353 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14F278DC20C4DEA100C2A353 /* Build configuration list for PBXNativeTarget "SwitchLanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14F278DD20C4DEA100C2A353 /* Debug */,
+				14F278DE20C4DEA100C2A353 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14F278DF20C4DEA100C2A353 /* Build configuration list for PBXNativeTarget "SwitchLanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14F278E020C4DEA100C2A353 /* Debug */,
+				14F278E120C4DEA100C2A353 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14F278A520C4DE9D00C2A353 /* Project object */;
+}
